@@ -1,0 +1,271 @@
+/**
+ * Joden Theme
+ * by Carson Darling
+ *
+ *
+ * Color palette:
+ *   Light: EFEFEF;
+ *   Dark: 404040;
+ *   Highlight 1: 024959;
+ *   Highlight 2: 037E8C;
+ *   Accent: F24C27;
+ */
+
+/**
+ * Defaults
+ * =============================================================================
+ */
+
+body {
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/**
+ * Typography
+ * =============================================================================
+ */
+
+a {
+  text-decoration: none;
+  color: #037E8C;
+}
+
+a:hover, a:active {
+  color: #024959;
+  text-decoration: underline;
+}
+
+h1, h2, h3, p, ul, ol, pre, hr, blockquote {
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  position: relative;
+  margin-top: 1.5em;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+h3 {
+  margin-top: 2em;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+img {
+  width: 100%;
+}
+
+ol, ul {
+  list-style-position: inside;
+}
+
+blockquote {
+  border-left: 5px solid #EFEFEF;
+  padding-left: 15px;
+}
+
+code {
+  background: #EFEFEF;
+}
+
+pre {
+  background: #EFEFEF;
+  padding: 0.5em;
+}
+
+hr {
+  /*border-color: #EFEFEF;
+  border-width: 5;
+  border-style: double;*/
+  /*border: 5px double #EFEFEF;*/
+  border: 0;
+  border-bottom: 3px double #EFEFEF;
+}
+
+/**
+ * Header
+ * =============================================================================
+ */
+
+header {
+  width: 650px;
+  margin: 0 auto;
+}
+
+header h1 { 
+  display: inline-block;
+  margin: 25px 0;
+}
+
+header h1 a {
+  color: #404040;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+/**
+ * Footer
+ * =============================================================================
+ */
+
+footer {
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+footer:after {
+  display: block;
+  content: '';
+  border-bottom: 3px double #EFEFEF;
+  
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 47%;
+  height: 0px;
+  z-index: -1;
+}
+
+footer .social {
+  margin: 25px 0;
+}
+
+footer .social a {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+
+  font-size: 1.3rem;
+
+  color: white;
+  background: #EFEFEF;
+  border: 3px double white;
+
+  -moz-border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -khtml-border-radius: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+footer .social a:hover {
+  border-color: #037E8C;
+  color: #037E8C;
+}
+
+/**
+ * Content
+ * =============================================================================
+ */
+
+main {
+  min-height: 100%;
+}
+
+/**
+ * Cover Image
+ * -----------------------------------------------------------------------------
+ */
+
+.cover {
+  /*width: 100%;*/
+  /*height: 100px;*/
+
+  background-color: #2B2B2B;
+  background-size: cover;
+  height: 200px;
+  /*box-shadow: inset 0 0 50px 0px rgba(1,0,0,.5);*/
+  box-shadow: inset 0 0 50px 0 rgba(0,0,0,0.25);
+}
+
+/**
+ * Index
+ * -----------------------------------------------------------------------------
+ */
+
+.post-list {
+  margin-top: 50px;
+}
+
+.post-list article {
+  width: 650px;
+  margin: 0 auto;
+}
+
+.post-list h2 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  border: 0;
+  font-weight: 300;
+}
+
+.post-list span { 
+  float: right;
+  line-height: 2rem;
+  font-size: 0.75rem;
+}
+
+/**
+ * Post
+ * -----------------------------------------------------------------------------
+ */
+
+.content.post header .blog-logo {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+
+  font-size: 1.3rem;
+
+  color: white;
+  background: #EFEFEF;
+  border: 3px double white;
+
+  -moz-border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -khtml-border-radius: 2rem;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.content.post header .blog-logo:hover {
+  border-color: #037E8C;
+  color: #037E8C;
+}
+
+.content.post .post-header {
+  margin: 25px auto 50px;
+  text-align: center;
+}
+
+.content.post .post-title {
+  color: #037E8C;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.3;
+  /*background: #eeffee;*/
+}
+
+.content.post .post-meta {
+  display: block;
+  width: 650px;
+  margin: 0 auto;
+
+  font-size: 0.7rem;
+  text-transform: uppercase;
+
+  /*background: #ffffee;*/
+  text-align: center;
+}

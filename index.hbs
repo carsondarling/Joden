@@ -1,0 +1,24 @@
+{{!< default}}
+
+<header>
+  <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+</header>
+
+{{! Add a cover photo if one is specified in the Ghost settings. }}
+<!-- {{#if @blog.cover}}<div class="cover"><img src="{{@blog.cover}}" /></div>{{/if}} -->
+{{#if @blog.cover}}<div class="cover" style="background-image: url({{@blog.cover}});"></div>{{/if}}
+
+{{! The main content area on the homepage }}
+<main class="content post-list" role="main">
+
+  {{! Each post will be output using this markup }}
+  {{#foreach posts}}
+
+  <article class="{{post_class}}">
+    <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="D MMMM YYYY"}}</time></span>
+    <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+  </article>
+
+  {{/foreach}}
+
+</main>

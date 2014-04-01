@@ -1,0 +1,9 @@
+{
+  "name": "joden-theme",
+  "dependencies": {
+    "necolas/normalize.css": "*",
+    "FortAwesome/Font-Awesome": "*"
+  },
+  "paths": ["lib"],
+  "local": ["prism", "joden"]
+}

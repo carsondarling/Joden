@@ -1,0 +1,7 @@
+{
+  "name": "Casper",
+  "version": "0.9.3",
+  "scripts": {
+    "build": "component build -o assets"
+  }
+}

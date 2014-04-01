@@ -1,0 +1,10 @@
+{
+  "name": "prism",
+  "main": "prism.js",
+  "scripts": [
+    "prism.js"
+  ],
+  "styles": [
+    "prism.css"
+  ]
+}

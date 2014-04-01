@@ -1,0 +1,11 @@
+{
+  "name": "joden",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "screen.css"
+  ],
+  "local": ["prism"]
+}
