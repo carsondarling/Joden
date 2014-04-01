@@ -1,6 +1,6 @@
 {
-  "name": "Casper",
-  "version": "0.9.3",
+  "name": "Joden",
+  "version": "0.1.0",
   "scripts": {
     "build": "component build -o assets"
   }
